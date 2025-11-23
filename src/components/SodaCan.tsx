@@ -9,6 +9,8 @@ const flavorTextures = {
   lemonLime: "/labels/lemon-lime.png",
   grape: "/labels/grape.png",
   blackCherry: "/labels/cherry.png",
+  strawberryLemonade: "/labels/cherry.png",
+  watermelon: "/labels/lemon-lime.png",
 };
 
 const metalMaterial = new THREE.MeshStandardMaterial({
@@ -32,9 +34,11 @@ export function SodaCan({
   const labels = useTexture(flavorTextures);
 
   // Fixes upside down labels
-  labels.blackCherry.flipY = false;
-  labels.grape.flipY = false;
   labels.lemonLime.flipY = false;
+  labels.grape.flipY = false;
+  labels.blackCherry.flipY = false;
+  labels.strawberryLemonade.flipY = false;
+  labels.watermelon.flipY = false;
 
   const label = labels[flavor];
 
