@@ -5,6 +5,7 @@ import { components } from "@/slices";
 
 const mockHomeSlices = [
   {
+    id: "hero-mock",
     slice_type: "hero",
     primary: {
       heading: [{ type: "heading1", text: "go+" }],
@@ -19,6 +20,7 @@ const mockHomeSlices = [
     }
   },
   {
+    id: "carousel-mock",
     slice_type: "carousel",
     primary: {
       heading: [{ type: "heading2", text: "Flight" }],
@@ -26,6 +28,7 @@ const mockHomeSlices = [
     }
   },
   {
+    id: "skydive-mock",
     slice_type: "sky_dive",
     primary: {
       sentence: "Power Through Every Challenge",
@@ -33,12 +36,10 @@ const mockHomeSlices = [
     }
   },
   {
+    id: "bigtext-mock",
     slice_type: "big_text",
-    primary: {
-      // Add BigText fields if defined
-    }
-  },
-  // Full static demo with all slices
+    primary: {}
+  }
 ];
 
 export const metadata: Metadata = {
