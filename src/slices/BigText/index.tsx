@@ -18,10 +18,10 @@ const BigText = ({ slice }: BigTextProps): JSX.Element => {
     >
       <h2 className="grid w-full gap-[3vw] py-10 text-center font-black uppercase leading-[.7]">
         <div className="grid gap-[3vw] text-[34vw] md:flex md:text-[11vw]">
-          <span className="inline-block">S'KA </span>
+          <span className="inline-block">S&apos;KA </span>
           <span className="inline-block max-md:text-[27vw]">QË </span>
         </div>
-        <div className="text-[32vw]">T'NAL</div>
+        <div className="text-[32vw]">T&apos;NAL</div>
       </h2>
     </section>
   );
